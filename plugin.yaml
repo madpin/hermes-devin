@@ -1,0 +1,14 @@
+name: devin
+manifest_version: 2
+version: 0.1.0
+kind: model-provider
+description: "Run Hermes on the models of your Devin (Cognition) account through the Devin CLI. Hermes keeps its own tools, memory and skills; Devin runs as a bare model with Devin's tools, MCP servers, skills and rules switched off."
+author: "madpin"
+license: MIT
+platforms:
+  - macos
+  - linux
+requires_hermes: ">=0.23.1"
+external_dependencies:
+  - command: devin
+capabilities: []
